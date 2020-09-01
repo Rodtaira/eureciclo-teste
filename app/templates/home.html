@@ -1,0 +1,17 @@
+<html>
+  <body>
+    
+
+    <h1>Orders</h1>
+    <table>
+      {% for order in orders %}
+        <tr>
+          <td>
+            {{order.name}}
+          </td>
+          
+        </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>

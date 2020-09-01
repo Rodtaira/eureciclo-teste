@@ -10,8 +10,9 @@ flask = "*"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
-pymysql = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
